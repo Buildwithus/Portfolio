@@ -1,0 +1,37 @@
+nav{
+    background-color:#eeeeee;
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+    background-color: #eeeeee;
+}
+.nav-link{
+    padding: 1rem;
+    font-size: 1.15rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+
+button{
+    outline: none;
+    border: none;
+}
+body{
+    background-color:#eeeeee;
+}
+.icconimg{
+    width: 40%;
+}
+@media screen and (max-width:600px) {
+    .nav-link{
+        padding: 0.5rem;
+        font-size: 1.15rem;
+        margin-left: 3rem;
+        text-align: center;
+    }
+    .icconimg{
+        width: 30%;
+    }
+}

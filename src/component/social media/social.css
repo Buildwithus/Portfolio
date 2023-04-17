@@ -1,0 +1,406 @@
+.s-container {
+    width: 100%;
+    padding: 1rem;
+}
+.ssp {
+    width: 98%;
+    margin: auto;
+    display: flex;
+}
+.ssp2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ipt-l{
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-12{
+    width: 30%;
+    margin-top: 3rem;
+    display: block;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    background-color: indigo;
+    box-shadow: 5px 4px 5px rgba(184, 142, 213, 0.5);
+}
+.btn-123{
+    width: 100%;
+   padding: 0.5rem;
+   border-radius: 6px;
+   font-size: 20px;
+   color: white;
+   box-shadow: 5px 4px 5px rgba(0,0,0,0.5);
+   background-color: indigo;
+}
+.btn-123:hover{
+    background-color: rgb(127, 85, 157);
+    transition-duration: 0.7s;
+}
+
+h4{
+    text-align: center;
+}
+
+.logo-con{
+    width: 60%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-p{
+    text-align: left;
+}
+.ll{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right:auto ;
+    color:white;
+}
+.logo-text{
+    width: 87%;
+    height: 100%;
+}
+
+.navii{
+    width: 30%;
+   margin: auto;
+    display: flex;
+}
+
+.s-div {
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 2.7rem;
+    display: flex;
+}
+
+
+
+.insta-link {
+   
+    width: 100%;
+    text-align: center;
+}
+
+
+h5,.text-p{
+    margin: 0;
+    margin-left: 1rem;
+}
+
+
+
+.last-d{
+    margin-top: 3rem;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 10px;
+   
+}
+textarea{
+    width: 100%;
+    border-radius: 4px;
+    height: 150px;
+    padding: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f-h1{
+    color: rgba(28,2,47);
+}
+.ssp1 {
+    
+     width: 45%;
+   
+     padding: 2rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+.form-container12{
+    width: 75%;
+    background-color:#eeeeee;
+    margin: auto;
+    border: solid indigo;
+    border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 10px 10px  10px rgba(174, 127, 200, 0.5);
+}
+.tt:hover {
+    transition-duration: 1s;
+    color: blue;
+}
+.logo-img{
+    width: 12%;
+    background-color: indigo;
+    display: flex;
+    margin-left: auto;
+    margin-right:auto ;
+    align-items: center;
+   padding: 10px;
+   
+   border-radius: 50%;
+}
+label{
+    display: block;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+.tt {
+    color:white;
+}
+
+p {
+    margin-top: 1rem;
+    color:black;
+    text-align: center;
+}
+h1 {
+    color: rgba(28,2,47);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.insta:hover {
+    transition-duration: 0.7s;
+    transform: scale((1.01));
+    background-color: rgb(127, 110, 203);
+}
+.footer12{
+    width: 100%;
+    padding: 1rem;
+  background-color: white;
+}
+.insta {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: indigo;
+    border-radius: 7px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 1rem;
+}
+.naviia{
+    text-decoration: none;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+@media screen and (max-width:600px) {
+    .s-div {
+        width: 80%;
+       
+        margin-left: auto;
+        margin-right: auto;
+       margin-top: 2.7rem;
+        display: flex;
+    }
+    .insta {
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 6px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .navii{
+        width: 100%;
+    }
+    .naviia{
+        margin: 1.1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ssp {
+        width: 100%;
+        display: block;
+    }
+    .ssp1 {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .logo-con{
+        width: 100%;
+    }
+    .logo-img{
+        width: 13%;
+    }
+    .logo-text{
+        width: 82%;
+    }
+    h5{
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 22px;
+    }
+    
+    .text-p{
+        font-size: 18px;
+    }
+    .ssp2 {
+        width: 100%;
+        
+    
+    }
+    .form-container12{
+        width: 100%;
+        padding: 0.7rem;
+    }
+    textarea{
+        height: 130px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1100px) {
+    .s-div {
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+       margin-top: 2.7rem;
+        display: flex;
+    }
+    .insta {
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 6px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .navii{
+        width: 80%;
+    }
+    .naviia{
+        margin: 1.1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ssp {
+        width: 70%;
+        display: block;
+    }
+    .ssp1 {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .logo-con{
+        width: 100%;
+    }
+    .logo-img{
+        width: 13%;
+    }
+    .logo-text{
+        width: 82%;
+    }
+    h5{
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 22px;
+    }
+    
+    .text-p{
+        font-size: 18px;
+    }
+    .ssp2 {
+        width: 100%;
+        
+    
+    }
+    .form-container12{
+        width: 100%;
+        padding: 0.7rem;
+    }
+    textarea{
+        height: 130px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1100px) {
+
+    .ssp1 {
+        width: 60%;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    .logo-con{
+        width: 100%;
+    }
+    .logo-img{
+        width: 13%;
+    }
+    .logo-text{
+        width: 82%;
+    }
+    h5{
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 22px;
+    }
+    
+    .text-p{
+        font-size: 18px;
+    }
+    .ssp2 {
+        width: 100%;
+        
+    
+    }
+    .form-container12{
+        width: 100%;
+        padding: 0.7rem;
+    }
+    textarea{
+        height: 130px;
+    }
+}
