@@ -3,6 +3,9 @@ import PROJECT1 from '../images/blog.png';
 import crud from '../images/crud.png';
 import music from '../images/music.png';
 import weather from '../images/weather.png';
+import foodwind from '../images/foodwind.png';
+import anujwrites from '../images/anujwrites.png';
+import roomrpaid from '../images/roomrapid.png';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import '../../../node_modules/aos/dist/aos.css';
@@ -15,6 +18,51 @@ function Project() {
         <>
             <div className='project-container' id='project12'>
                 <h1 className='c1-h1'> PROJECTS</h1>
+
+
+ <div className='p-p1'>
+                    <div className='p-p1left' >
+
+                        <h1 className='h1'><a href='https://roomrapid.netlify.app/'>1.Room Booking Website </a></h1>
+                        <h4 className='hfour'>Description:</h4>
+                        <p className='s-p1' data-aos="zoom-in">Utilized MongoDB for data storage, implemented Express for efficient server-side routing via APIs,
+                            harnessed React for an intuitive front-end user interface, and leveraged Node.js for the back-end server. </p>
+                    </div>
+                    <div className='p-p11right' >
+                        <img src={roomrpaid} data-aos="zoom-in"></img>
+                    </div>
+
+                </div>
+
+                <div className='p-p1'>
+                    <div className='p-p1left' >
+
+                        <h1 className='h1'><a href='https://foodwind.netlify.app/'>2.Food Ordering Website </a></h1>
+                        <h4 className='hfour'>Description:</h4>
+                        <p className='s-p1' data-aos="zoom-in"> Spearheaded the design and development of a robust MERN stack pizza platform, by executing essential features
+                            such as user authentication, shopping cart, and ordering functionality. </p>
+                    </div>
+                    <div className='p-p11right' >
+                        <img src={foodwind} data-aos="zoom-in"></img>
+                    </div>
+
+                </div>
+                <div className='p-p1'>
+                    <div className='p-p1left' >
+
+                        <h1 className='h1'><a href='https://anujwrites.netlify.app/'>3.Latest Blog Website </a></h1>
+                        <h4 className='hfour'>Description:</h4>
+                        <p className='s-p1' data-aos="zoom-in">  Conceptualized, designed and developed a MERN stack website to enable users to post their blog with
+                            image, title and description. </p>
+                    </div>
+                    <div className='p-p11right' >
+                        <img src={anujwrites} data-aos="zoom-in"></img>
+                    </div>
+
+                </div>
+
+
+        
                 <div className='p-p1'>
                     <div className='p-p1left' >
                    
