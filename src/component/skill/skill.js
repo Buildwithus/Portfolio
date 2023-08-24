@@ -62,12 +62,19 @@ function Skilbody() {
                 <div class="progress-bar W-70" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-aos="slide-right"></div>
               </div>
             </div>
-          <div className='pr-1'>
+            <div className='pr-1'>
               <h6>C/C++</h6>
               <div class="progress">
                 <div class="progress-bar W-90" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-aos="slide-right"></div>
               </div>
             </div>
+            <div className='pr-1'>
+              <h6>MYSQL</h6>
+              <div class="progress">
+                <div class="progress-bar W-85" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-aos="slide-right"></div>
+              </div>
+            </div>
+    
             <div className='pr-1'>
               <h6>DSA</h6>
               <div class="progress">
