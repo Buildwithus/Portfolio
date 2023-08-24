@@ -30,7 +30,7 @@ function Mainbody() {
             <img data-aos="flip-right" className='myimg' src={Myimg}></img>
             </div>
             <div className='btndown' data-aos="zoom-in">
-            <a href='resume.pdf' download="anuj.pdf"><button className='button'>Download Resume</button></a>
+           <a href='finalresume.pdf' download="anuj.pdf"><button className='button'>Download Resume</button></a>
             </div>
             
           </div>
