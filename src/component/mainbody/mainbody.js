@@ -1,5 +1,6 @@
 import './mainbody.css';
 import Myimg from '../images/myimg.jpg';
+import pimg from '../images/image2.png';
 import { FaNodeJs } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
 import { MdOutlineDesktopWindows } from "react-icons/md";
@@ -27,7 +28,7 @@ function Mainbody() {
 
           <div className='main2' id='m2'>
             <div className='main2-img'>
-            <img data-aos="flip-right" className='myimg' src={Myimg}></img>
+           <img data-aos="flip-right" className='myimg' src={pimg}></img>
             </div>
             <div className='btndown' data-aos="zoom-in">
            <a href='finalresume.pdf' download="anuj.pdf"><button className='button'>Download Resume</button></a>
